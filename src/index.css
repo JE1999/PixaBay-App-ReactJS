@@ -1,10 +1,25 @@
-body {
-}
-
 .je-img{
   height: 450px;
   background: url('./Images/bg-grid.jfif');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.je-gradient{
+  width: 100%;
+  height: 100%;
+  background: rgb(0,0,0);
+  background: -moz-linear-gradient(0deg, rgba(0,0,0,0.6839110644257703) 0%, rgba(0,0,0,0) 100%);
+  background: -webkit-linear-gradient(0deg, rgba(0,0,0,0.6839110644257703) 0%, rgba(0,0,0,0) 100%);
+  background: linear-gradient(0deg, rgba(0,0,0,0.6839110644257703) 0%, rgba(0,0,0,0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
+}
+
+.je-line-bottom::after{
+  content: '';
+  width: 90px;
+  height: 5px;
+  background: silver;
+  display: block;
 }
