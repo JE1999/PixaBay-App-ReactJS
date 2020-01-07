@@ -22,6 +22,7 @@ function Buscador({setTextBuscadorHeader, setPaginaActual}){
 
         setTextBuscadorHeader(textBuscador)
         setPaginaActual(1)
+        setTextBuscador('')
 
     }
 
@@ -42,6 +43,7 @@ function Buscador({setTextBuscadorHeader, setPaginaActual}){
                             className="form-control form-control-lg shadow" 
                             placeholder="Buscar imagen..."
                             onChange={e => setTextBuscador(e.target.value)}
+                            value={textBuscador}
                             required
                         />
                     </div>
