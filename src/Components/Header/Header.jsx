@@ -21,7 +21,7 @@ function Header({setTextBuscadorApp, setPaginaActual}){
                         <h1 className="text-white je-line-bottom">PixaBay JE</h1>
                         <p className="text-white">
                             Buscando tu imagen perfecta?<br/>
-                            aqui la encontraras!
+                            aquí la encontraras!
                         </p>
                         <Buscador
                             setTextBuscadorHeader={setTextBuscadorHeader}
